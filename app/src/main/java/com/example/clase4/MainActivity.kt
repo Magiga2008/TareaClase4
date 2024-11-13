@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         //setContentView(R.layout.constrait_layout)
-        setContentView(R.layout.activity_main)
-
+        setContentView(R.layout.activity_main
     }
 }
