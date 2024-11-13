@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp">
+
+    <!-- View morado centrado horizontalmente -->
+    <View
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:background="@color/purple_700"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Texto centrado horizontalmente con color de fondo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola gente"
+        android:background="#B3018786"
+        android:textColor="@color/white"
+        android:padding="32dp"
+        android:textAlignment="textEnd"/>
+
+    <!-- Vista color aqua -->
+    <View
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:background="#B303DAC5"/>
+
+    <!-- Vista negra centrada -->
+    <View
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:background="#000000"
+        android:layout_gravity="center"/>
+
+    <!-- Vista blanca pequeña centrada -->
+    <View
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:layout_gravity="center"/>
+
+    <!-- FrameLayout centrado horizontalmente y abajo -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom">
+        <!-- Puedes añadir elementos aquí si lo deseas -->
+    </FrameLayout>
+
+    <!-- Vista negra centrada y en la parte inferior -->
+    <View
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:background="#000000"
+        android:layout_gravity="center|bottom"/>
+
+    <!-- Vista blanca pequeña en la parte inferior con margen inferior -->
+    <View
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="50dp"/>
+
+</FrameLayout>
